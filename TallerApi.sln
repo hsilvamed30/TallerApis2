@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TallerApi.Api", "TallerApi.Api\TallerApi.Api.csproj", "{236C2D59-CB76-4B1A-827E-16C64F948679}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tallerApis.Xamarin.Android", "tallerApis.Xamarin\tallerApis.Xamarin.Android\tallerApis.Xamarin.Android.csproj", "{7C0FE13E-CEAE-498D-B859-6A7DA090FE91}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "tallerApis.Xamarin", "tallerApis.Xamarin\tallerApis.Xamarin\tallerApis.Xamarin.shproj", "{40D3FABB-1A6F-442A-BBD3-D1B359BAE775}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		tallerApis.Xamarin\tallerApis.Xamarin\tallerApis.Xamarin.projitems*{40d3fabb-1a6f-442a-bbd3-d1b359bae775}*SharedItemsImports = 13
+		tallerApis.Xamarin\tallerApis.Xamarin\tallerApis.Xamarin.projitems*{7c0fe13e-ceae-498d-b859-6a7da090fe91}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{236C2D59-CB76-4B1A-827E-16C64F948679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{236C2D59-CB76-4B1A-827E-16C64F948679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{236C2D59-CB76-4B1A-827E-16C64F948679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{236C2D59-CB76-4B1A-827E-16C64F948679}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C0FE13E-CEAE-498D-B859-6A7DA090FE91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C0FE13E-CEAE-498D-B859-6A7DA090FE91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C0FE13E-CEAE-498D-B859-6A7DA090FE91}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7C0FE13E-CEAE-498D-B859-6A7DA090FE91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C0FE13E-CEAE-498D-B859-6A7DA090FE91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C0FE13E-CEAE-498D-B859-6A7DA090FE91}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D5CB6E4-2DBD-4021-8E56-D5FD814E11C4}
+	EndGlobalSection
+EndGlobal
